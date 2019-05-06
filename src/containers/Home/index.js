@@ -20,7 +20,7 @@ function Home() {
   return (
     <Template>
       <Base>
-        <div className="card-container">
+        <div id="home" className="card-container">
           <img className="round" src="https://randomuser.me/api/portraits/men/79.jpg" alt="user" />
           <h3>John Paul Rolle</h3>
           <h6>+63 947 571 8743</h6>
