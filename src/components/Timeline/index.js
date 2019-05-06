@@ -5,11 +5,10 @@ import './styles.css';
 const TimelineItem = ({ data }) => (
   <div className="timeline-item">
       <div className="timeline-item-content">
-          <span className="tag" style={{ background: data.category.color }}>
-              {data.category.tag}
-          </span>
           <div className="title">{data.title}</div>
           <time className="date">{data.date}</time>
+          <span className="tag" style={{ background: data.category.color }}>
+              {data.category.tag}</span>
           <p>{data.text}</p>
           {data.link && (
             <Link to={data.link.url}>
