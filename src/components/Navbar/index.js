@@ -12,14 +12,6 @@ import {
 } from 'reactstrap';
 
 const ScrollLink = (props) => genericHashLink(props, Link);
-const scrollWithOffset = (el, offset) => {
-  const elementPosition = el.offsetTop - offset;
-  window.scroll({
-    top: elementPosition,
-    left: 0,
-    behavior: "smooth"
-  });    
-};
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -30,11 +22,25 @@ export default class Example extends React.Component {
       isOpen: false
     };
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
+  scrollWithOffset(el, offset) {
+    const elementPosition = el.offsetTop - offset;
+    window.scroll({
+      top: elementPosition,
+      left: 0,
+      behavior: "smooth"
+    });   
+    if (this.state.isOpen) {
+      this.toggle(); 
+    }
+  }
+  
   render() {
     return (
       <Navbar color="light" light expand="md" fixed="top">
@@ -43,13 +49,13 @@ export default class Example extends React.Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink tag={ScrollLink} to="/#home" scroll={el => scrollWithOffset(el, 85)}>Home</NavLink>
+              <NavLink tag={ScrollLink} to="/#home" scroll={el => this.scrollWithOffset(el, 85)}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={ScrollLink} to="/#work-experience" scroll={el => scrollWithOffset(el, 85)}>Work Experience</NavLink>
+              <NavLink tag={ScrollLink} to="/#work-experience" scroll={el => this.scrollWithOffset(el, 85)}>Work Experience</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Contact</NavLink>
+              <NavLink tag={ScrollLink} to="/#contact" scroll={el => this.scrollWithOffset(el, 85)}>Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

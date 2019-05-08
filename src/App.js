@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import Template from './components/Template';
-// import Navbar from './components/Navbar';
 import Home from './containers/Home';
 import CaseStudyOne from './containers/CaseStudyOne';
 

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Template from '../../components/Template';
 import WorkExperience from './WorkExperience';
+import Contact from './Contact';
 import './styles.css';
 
 const Base = styled.div`
@@ -64,6 +65,7 @@ function Home() {
         </div>
       </Base>
       <WorkExperience />
+      <Contact />
     </Template>
   );
 }
