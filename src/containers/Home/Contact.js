@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import styled from 'styled-components';
 import { default as ContactForm } from '../../components/Contact';
 
@@ -8,11 +9,26 @@ const Title = styled.h1`
   margin-bottom: 30px;
 `;
 
+const CustonContainer = styled(Container)`
+  @media (min-width: 768px) {
+    height: calc(100vh - 180px);
+  }
+  padding-top: 20px;
+  padding-bottom: 40px;
+`;
+
 export default function Contact () {
   return (
-    <div id="contact">
-      <Title>Contact</Title>
-      <ContactForm />
+    <div
+      id="contact"
+      style={{
+        backgroundColor: '#f6f6f6',
+      }}
+    >
+      <CustonContainer>
+        <Title>Contact</Title>
+        <ContactForm />
+      </CustonContainer>
     </div>
   );
 }

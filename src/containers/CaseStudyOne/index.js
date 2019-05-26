@@ -1,135 +1,150 @@
 import React from 'react';
-import styled from 'styled-components';
-import { genericHashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
+import styled, { css } from 'styled-components';
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
+  Container,
+  Row,
+  Col,
 } from 'reactstrap';
-
-const ScrollLink = (props) => genericHashLink(props, Link);
-
-const Page = styled.div`
-  min-height: 100vh;
-  max-width: 900px;
-  margin: 0 auto;
-  line-height: 2;
-  small {
-    display: block;
-    font-size: 50%;
-    margin-bottom: 10px;
-  }
-`;
-
-const Content = styled.div`
-  padding-top: 120px;
-`;
-
-const H1 = styled.h1`
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-`;
-
-const H2 = styled.h2`
-  text-transform: uppercase;
-  margin-bottom: 20px;
-`;
-
-const H3 = styled.h3`
-  text-transform: uppercase;
-  margin-bottom: 20px;
-`;
-
-const Header = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 100vh;
-  max-width: 600px;
-  margin: 0 auto;
-  p {
-    font-size: 20px;
-  }
-`;
+import Template from '../../components/Template';
+import image from '../../assets/images/bargainwheels-view.png';
+import {
+  Page,
+  BannerImage,
+  Lead,
+  H1,
+  H2,
+  H3,
+  UnorderedList,
+  ImageTitle,
+  CircledIcon,
+} from '../../components/CaseStudy';
 
 export default class CaseStudyOne extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md" fixed="top">
-          <NavbarBrand to="/" tag={Link}>thesingingdesigner</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-              <NavLink tag={ScrollLink} to="/case-study-1/#title-one" smooth>Title One</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={ScrollLink} to="/case-study-1/#title-two" smooth>Title Two</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={ScrollLink} to="/case-study-1/#title-three" smooth>Title Three</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={ScrollLink} to="/case-study-1/#title-four" smooth>Title Four</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-        <Page id="title-one">
-          <Header>
-            <H1>London by Bike</H1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </Header>
+      <Template>
+        <Page grayed>
+          <Container>
+            <BannerImage>
+              <img
+                src={image}
+                alt="description"
+              />
+            </BannerImage>
+            <Lead>
+              <H1>Junior UX Designer</H1>
+              <p>
+                Emapta Versatile Services Inc.<br />March 2019 - Present
+              </p>
+            </Lead>
+            <H3>Tools / Technologies used:</H3>
+            <div className="skills">
+              <UnorderedList>
+                <ul>
+                  <li>Adobe XD</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe After Effects</li>
+                  <li>Wordpress</li>
+                  <li>AMP</li>
+                  <li>Jira / Confluence</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Git</li>
+                  <li>Open VPN</li>
+                  <li>WinSCP</li>
+                  <li>Bootstrap</li>
+                  <li>Slack</li>
+                </ul>
+              </UnorderedList>
+            </div>
+          </Container>
         </Page>
-        <Page id="title-two">
-          <Content>
-            <H2>London by Bike</H2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </Content>
+        <Page>
+          <Container>
+            <Row className="mb80 mb-xs-20">
+              <Col xs="12" sm="5" md="6">
+                <CircledIcon>
+                    <i className="fa fa-graduation-cap" />
+                  </CircledIcon>
+              </Col>
+              <Col xs="12" sm="7" md="6">
+                <H2 capitalized>Job Scopes:</H2>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                </ul>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs="12" sm="5" md="6">
+                <CircledIcon>
+                  <i className="fa fa-graduation-cap" />
+                </CircledIcon>
+              </Col>
+              <Col xs="12" sm="7" md="6">
+                <H2 className="mb20" capitalized>
+                  Skills, Tools and Abilities:
+                </H2>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                </ul>
+              </Col>
+            </Row>
+          </Container>
         </Page>
-        <Page id="title-three">
-          <Content>
-            <H2>
-              <small>The Challenge</small>
-              London by Bike
-            </H2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <H3>Get on your bikes and ride</H3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </Content>
+        <Page grayed>
+          <Container>
+            <H2 capitalized>UX Design Process</H2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <H2 capitalized>Project I Worked and Participated with...</H2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <Row>
+              <Col xs="12">
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+                <ImageTitle
+                  src="https://via.placeholder.com/350x220"
+                  title="VroomVroomVroom"
+                />
+              </Col>
+            </Row>
+          </Container>
         </Page>
-        <Page id="title-four">
-          <Content>
-            <H2>London by Bike</H2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </Content>
-        </Page>
-      </div>
+      </Template>
     );
   }
 }
