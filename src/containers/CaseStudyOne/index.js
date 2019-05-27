@@ -17,6 +17,10 @@ import {
   UnorderedList,
   ImageTitle,
   CircledIcon,
+  IconText,
+  IconTextInline,
+  CustomIconText,
+  IconBox,
 } from '../../components/CaseStudy';
 
 export default class CaseStudyOne extends React.Component {
@@ -64,8 +68,8 @@ export default class CaseStudyOne extends React.Component {
             <Row className="mb80 mb-xs-20">
               <Col xs="12" sm="5" md="6">
                 <CircledIcon>
-                    <i className="fa fa-graduation-cap" />
-                  </CircledIcon>
+                  <i className="fa fa-graduation-cap" />
+                </CircledIcon>
               </Col>
               <Col xs="12" sm="7" md="6">
                 <H2 capitalized>Job Scopes:</H2>
@@ -100,6 +104,67 @@ export default class CaseStudyOne extends React.Component {
           <Container>
             <H2 capitalized>UX Design Process</H2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <Row className="mb30">
+              <Col xs="12">
+                <IconBox>
+                <CustomIconText
+                    icon="fa-graduation-cap"
+                    content={(
+                      <span>
+                        User<br />
+                        Research
+                      </span>
+                    )}
+                  />
+                  <CustomIconText
+                    icon="fa-graduation-cap"
+                    content={(
+                      <span>
+                        Build User<br />
+                        Persona
+                      </span>
+                    )}
+                  />
+                  <CustomIconText
+                    icon="fa-graduation-cap"
+                    content={(
+                      <span>
+                        Create User<br />
+                        Stories
+                      </span>
+                    )}
+                  />
+                  <CustomIconText
+                    icon="fa-graduation-cap"
+                    content={(
+                      <span>
+                        Wireframe<br />
+                        Design
+                      </span>
+                    )}
+                  />
+                  <CustomIconText
+                    icon="fa-graduation-cap"
+                    content={(
+                      <span>
+                        Visual Design<br />
+                        Prototype
+                      </span>
+                    )}
+                  />
+                  <CustomIconText
+                    icon="fa-graduation-cap"
+                    content={(
+                      <span>
+                        Design<br />
+                        Validations
+                      </span>
+                    )}
+                  />
+                  <div className="line"></div>
+                </IconBox>
+              </Col>
+            </Row>
             <H2 capitalized>Project I Worked and Participated with...</H2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <Row>

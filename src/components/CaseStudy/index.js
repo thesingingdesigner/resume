@@ -88,13 +88,14 @@ export const ImageTitle = ({ src, title }) => {
 }
 
 export const CircledIcon = styled.div`
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   height: 320px;
-  background-color: #f6f6f6;
+  width: 320px;
   border: 15px solid #ffffff;
   padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  background-color: #f6f6f6;
   border-radius: 50%;
-  width: 320px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,11 +106,100 @@ export const CircledIcon = styled.div`
   }
   @media (max-width: 767px) {
     margin-bottom: 30px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border: 8px solid #ffffff;
     i {
       font-size: 80px;
+    }
+  }
+  ${props =>
+    props.small &&
+    css`
+      height: 140px;
+      width: 140px;
+      border: 8px solid #ffffff;
+      padding: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      i {
+        font-size: 50px;
+      }
+    `};
+`;
+
+export const IconText = styled.div`
+  position: relative;
+  .content {
+    text-align: center;
+  }
+  .text {
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+`;
+
+export const IconTextInline = styled.div`
+  float: left;
+  position: relative;
+  z-index: 1;
+  width: 16.66%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    ${CircledIcon} {
+      width: 110px;
+      height: 110px;
+    }
+    i {
+      font-size: 30px;
+    }
+    .text {
+      font-size: 9px;
+      line-height: 11px;
+    }
+  }
+`;
+
+export const CustomIconText = ({ icon, content }) => {
+  return (
+    <IconTextInline>
+      <IconText>
+        <CircledIcon classname="circled-icon" small>
+          <div className="content">
+            <i className={`fa ${icon}`} />
+            <div className="text">
+              {content}
+            </div>
+          </div>
+        </CircledIcon>
+      </IconText>
+    </IconTextInline>
+  );
+}
+
+export const IconBox = styled.div`
+  position: relative;
+  height: 140px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    height: 110px;
+  }
+  .line {
+    height: 8px;
+    background-color: #8699b1;
+    width: 85%;
+    margin: 0 auto;
+    top: 50%;
+    position: absolute;
+    left: 7%;
+    @media (max-width: 767px) {
+      height: 100vh;
+      width: 8px;
+      margin: 0 auto;
+      position: absolute;
+      left: calc(50% - 4px);
     }
   }
 `;
