@@ -2,11 +2,19 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
 
 const Contact = () => {
-  return ( 
+  return (
     <Container>
       <Row>
         <Col sm="12" md={{ size: 6, offset: 3 }}>
-          <Form style={{ marginBottom: '40px' }} name="contact" method="POST" data-netlify="true">
+          <Form
+            style={{ marginBottom: '40px' }}
+            name="contact"
+            method="post"
+            action="/success"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="bot-field" />
             <FormGroup>
               <Label for="email">Email</Label>
               <Input type="email" name="email" id="email" placeholder="Email" />
@@ -14,6 +22,9 @@ const Contact = () => {
             <FormGroup>
               <Label for="subject">Subject</Label>
               <Input type="text" name="subject" id="subject" placeholder="Subject" />
+            </FormGroup>
+            <FormGroup>
+              <div data-netlify-recaptcha="true"></div>
             </FormGroup>
             <FormGroup>
               <Label for="message">Text Area</Label>

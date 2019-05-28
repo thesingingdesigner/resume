@@ -7,11 +7,13 @@ function App() {
   return (
     <Router>
       <Switch>
-        {/* <Template>
-          <Navbar />
-        </Template> */}
         <Route path="/" exact component={Home} />
         <Route path="/case-study-1" component={CaseStudyOne} />
+        <Route path="/success" component={() => (
+          <div>
+            Success
+          </div>
+        )} />
       </Switch>
     </Router>
   );

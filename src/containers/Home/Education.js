@@ -53,7 +53,7 @@ export default function Contact () {
               <div className="mb30">
                 <BoldText>ABE International College of Business</BoldText>
                 <BoldTextSmall>June 2003 - March 2004</BoldTextSmall>
-                <span className="tag">BS Business Administration Major E-Business</span>
+                <span className="tag">BSBA Major E-Business</span>
               </div>
               <div className="mb30">
                 <BoldText>STI - System Technology Institute</BoldText>
