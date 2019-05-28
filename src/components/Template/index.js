@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Navbar from '../Navbar';
-
+import DynamicScrollToTop from '../DynamicScrollToTop';
 const Base = styled.div`
   margin-top: 90px;
 `;
@@ -14,13 +14,16 @@ const Footer = styled.div`
 
 function Template({ children }) {
   return (
-    <Base>
-      <Navbar />
-      { children }
-      <Footer>
-        Copyright © 2019 - thesigningdesigner.com
-      </Footer>
-    </Base>
+    <React.Fragment>
+      <DynamicScrollToTop />
+      <Base>
+        <Navbar />
+        { children }
+        <Footer>
+          Copyright © 2019 - thesigningdesigner.com
+        </Footer>
+      </Base>
+    </React.Fragment>
   );
 }
 

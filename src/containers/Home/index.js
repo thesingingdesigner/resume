@@ -63,7 +63,6 @@ function Home() {
       </Container>
       <WorkExperience />
       <Education />
-      <Contact />
     </Template>
   );
 }

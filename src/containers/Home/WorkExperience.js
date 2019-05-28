@@ -27,7 +27,7 @@ const timelineData = [
     department: 'Development Team',
     text: `A car rental company based in Australia that cater different countries (Australia, United Kingdom, United States, Canada and New Zealand), my main job objective is to designs a very functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions.`,
     link: {
-      url: '/case-study-1/#title-one',
+      url: '/job-scope-and-contributions/emapta',
       text: 'View Case Study'
     }
   },
@@ -42,7 +42,7 @@ const timelineData = [
     department: 'Development Team',
     text: `A car rental company based in Australia that cater different countries (Australia, United Kingdom, United States, Canada and New Zealand), my main job objective is to designs a very functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions.`,
     link: {
-      url: '/case-study-1/#title-one',
+      url: '/job-scope-and-contributions/zigzag',
       text: 'View Case Study'
     }
   },
@@ -56,10 +56,6 @@ const timelineData = [
     account: 'DIRECT HIRED',
     department: 'DESIGN TEAM',
     text: `An e-Commerce based in United States with satellite office in Makati, selling refurbished gadgets such as mobile phones and tablets.`,
-    link: {
-      url: '/case-study-1/#title-one',
-      text: 'View Case Study'
-    }
   },
   {
     title: 'filsupport',
@@ -72,7 +68,7 @@ const timelineData = [
     department: 'DEVELOPMENT TEAM',
     text: `An outsourcing company that focuses on SEO, Internet Marketing and Web Design, catering multiple businesses from different countries`,
     link: {
-      url: '/case-study-1/#title-one',
+      url: '/job-scope-and-contributions/filsupport',
       text: 'View Case Study'
     }
   },
@@ -86,10 +82,6 @@ const timelineData = [
     account: 'DIRECT HIRED',
     department: 'DESIGN TEAM',
     text: `An e-Commerce based in Dubai with satellite office in Makati, that focus on internet marketing such as ad banners and social media community.`,
-    link: {
-      url: '/case-study-1/#title-one',
-      text: 'View Case Study'
-    }
   },
   {
     title: 'dreamladders',
@@ -101,10 +93,6 @@ const timelineData = [
     account: 'DIRECT HIRED',
     department: 'DIRECT HIRED',
     text: `An event/catering business that caters various occassions such as birthdays, debut, weddings, anniversaries and more.`,
-    link: {
-      url: '/case-study-1/#title-one',
-      text: 'View Case Study'
-    }
   },
 ];
 
