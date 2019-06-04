@@ -40,7 +40,7 @@ function Home() {
             </Avatar>
             <h3>John Paul "JP" Rolle</h3>
             <h6>+63 947 571 8743</h6>
-            <p>UX/UI Designer</p>
+            <p><b>UX/UI Designer</b></p>
             <div className="buttons mb30">
               <button className="primary ghost">
                 Email
@@ -53,10 +53,14 @@ function Home() {
               </button>
             </div>
             <p className="qoute">
-              "Looking for a very challenging  position as a UX/UI Desinger, from end-to-end user journey and business to business endpoint, for fast easy and effective productions, with positive environment and form for growth personally and professionally."
+            “Looking for a very challenging position, as a UX/UI Designer, from end-to-end user journey and business to business endpoint, for fast, easy and effective productions, with a positive environment and supporting growth personally and professionally.”
             </p>
             <p className="text-align-left">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+            Hello there, I'm a Graphic/UI/UX Designer & Prototype Developer from Cavite, Philippines. I love to challenge myself in an interesting, challenging and useful web and mobile applications because of the way it makes me think on how the user-experience and systems will work from end-to-end users.
+            <br />
+            <br />
+
+            When I am not working as a graphic designer, I spend my time doing some other creative stuff such as writing songs, poems, stories and doing lots of productive thinking. I also like travelling and going to heritage places, do some fishing and nature tripping.
             </p>
           </BaseHome>
         </Base>

@@ -7,6 +7,7 @@ import {
 } from 'reactstrap';
 import Template from '../../components/Template';
 import image from '../../assets/images/bargainwheels-view.png';
+import ImageProcess from '../../assets/images/esd.png';
 import {
   Page,
   BannerImage,
@@ -32,7 +33,7 @@ export default class Emapta extends React.Component {
             <BannerImage>
               <img
                 src={image}
-                alt="description"
+                alt="bargainwheels desktop, tablet and mobile"
               />
             </BannerImage>
             <Lead>
@@ -68,33 +69,35 @@ export default class Emapta extends React.Component {
             <Row className="mb80 mb-xs-20">
               <Col xs="12" sm="5" md="6">
                 <CircledIcon>
-                  <i className="fa fa-graduation-cap" />
+                <i className="fa fa-pencil" />
                 </CircledIcon>
               </Col>
               <Col xs="12" sm="7" md="6">
                 <H2 capitalized>Job Scopes:</H2>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                  <li>Designing functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions</li>
+                  <li>Undertake initial research, developing, wireframes and mock-ups, polishing the design, implementing it with HTML5/CSS3 as directed by the UX Designer</li>
+                  <li>Testing, evaluating and tweaking all designs before going live</li>
+                  <li>Working closely with the Development, Marketing and Customer Service team to ensure designs are functional and relevant to each departments needs</li>
                 </ul>
               </Col>
             </Row>
             <Row>
               <Col xs="12" sm="5" md="6">
                 <CircledIcon>
-                  <i className="fa fa-graduation-cap" />
+                  <i className="fa fa-code" />
                 </CircledIcon>
               </Col>
               <Col xs="12" sm="7" md="6">
                 <H2 className="mb20" capitalized>
-                  Skills, Tools and Abilities:
+                Skills, Tools and Abilities:
                 </H2>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                  <li>Adobe Creative Cloud 2018/2019</li>
+                  <li>Adept in developing, coding and publishing marketing and advertising collaterals</li>
+                  <li>Experienced in web design, UI and frontend design for web products and services</li>
+                  <li>Deep understanding of cross-platform and cross browser compatibility (responsive web design)</li>
+                  <li>Knowledgeable in CSS3 and HTML5</li>
                 </ul>
               </Col>
             </Row>
@@ -105,14 +108,32 @@ export default class Emapta extends React.Component {
             <H2 capitalized>UX Design Process</H2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <Row className="mb30">
+              <BannerImage>
+                <img
+                  src={ImageProcess}
+                  alt="bargainwheels desktop, tablet and mobile"
+                />
+                <Lead>
+                  <br />
+                  <h4>Nah, I'm just kidding... this is how the way I really process...</h4>
+                </Lead>
+              </BannerImage>
               <Col xs="12">
                 <IconBox>
                 <CustomIconText
-                    icon="fa-graduation-cap"
+                    icon="fa-search"
                     content={(
                       <span>
-                        User<br />
-                        Research
+                        Discussion
+                      </span>
+                    )}
+                  />
+                  
+                  <CustomIconText
+                    icon="fa-graduation-cap" 
+                    content={(
+                      <span>
+                        Idea
                       </span>
                     )}
                   />
@@ -120,8 +141,7 @@ export default class Emapta extends React.Component {
                     icon="fa-graduation-cap"
                     content={(
                       <span>
-                        Build User<br />
-                        Persona
+                        Review
                       </span>
                     )}
                   />
@@ -129,8 +149,7 @@ export default class Emapta extends React.Component {
                     icon="fa-graduation-cap"
                     content={(
                       <span>
-                        Create User<br />
-                        Stories
+                        Implementation
                       </span>
                     )}
                   />
@@ -138,8 +157,7 @@ export default class Emapta extends React.Component {
                     icon="fa-graduation-cap"
                     content={(
                       <span>
-                        Wireframe<br />
-                        Design
+                        Final Review
                       </span>
                     )}
                   />
@@ -147,17 +165,7 @@ export default class Emapta extends React.Component {
                     icon="fa-graduation-cap"
                     content={(
                       <span>
-                        Visual Design<br />
-                        Prototype
-                      </span>
-                    )}
-                  />
-                  <CustomIconText
-                    icon="fa-graduation-cap"
-                    content={(
-                      <span>
-                        Design<br />
-                        Validations
+                        Deliver
                       </span>
                     )}
                   />
@@ -166,7 +174,7 @@ export default class Emapta extends React.Component {
               </Col>
             </Row>
             <H2 capitalized>Project I Worked and Participated with...</H2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>As a UX designer my priority tasks is to design a highly functional interfaces and tools that are easy to use, to provide and improved usability customer experience and increase conversion.</p>
             <Row>
               <Col xs="12">
                 <ImageTitle
@@ -175,35 +183,35 @@ export default class Emapta extends React.Component {
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="Bargainwheels"
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="Carhire"
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="Whitelabels"
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="Closed-User-Group (CUG)"
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="Bargainwheels Logo"
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="Bargainwheels Mascot"
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="Animations"
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  title="AMP Pages"
                 />
               </Col>
             </Row>

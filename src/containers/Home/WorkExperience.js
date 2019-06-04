@@ -23,7 +23,7 @@ const timelineData = [
       tag: 'Junior UX Designer',
       color: '#8493ff'
     },
-    account: 'VroomVroomVroom / Hiccup',
+    account: 'VroomVroomVroom / Hiccup Insurance',
     department: 'Development Team',
     text: `A car rental company based in Australia that cater different countries (Australia, United Kingdom, United States, Canada and New Zealand), my main job objective is to designs a very functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions.`,
     link: {
@@ -38,7 +38,7 @@ const timelineData = [
       tag: 'ui / ux designer',
       color: '#8493ff'
     },
-    account: 'VroomVroomVroom / Hiccup',
+    account: 'VroomVroomVroom / Hiccup Insurance',
     department: 'Development Team',
     text: `A car rental company based in Australia that cater different countries (Australia, United Kingdom, United States, Canada and New Zealand), my main job objective is to designs a very functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions.`,
     link: {
@@ -65,7 +65,7 @@ const timelineData = [
       color: '#8493ff'
     },
     account: 'DIRECT HIRED',
-    department: 'DEVELOPMENT TEAM',
+    department: 'DESIGN TEAM',
     text: `An outsourcing company that focuses on SEO, Internet Marketing and Web Design, catering multiple businesses from different countries`,
     link: {
       url: '/job-scope-and-contributions/filsupport',

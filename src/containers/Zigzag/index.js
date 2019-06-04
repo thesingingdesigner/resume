@@ -6,7 +6,7 @@ import {
   Col,
 } from 'reactstrap';
 import Template from '../../components/Template';
-import image from '../../assets/images/bargainwheels-view.png';
+import image from '../../assets/images/vroom-view.png';
 import {
   Page,
   BannerImage,
@@ -32,13 +32,13 @@ export default class Zigzag extends React.Component {
             <BannerImage>
               <img
                 src={image}
-                alt="description"
+                alt="Different platform designs"
               />
             </BannerImage>
             <Lead>
-              <H1>Junior UX Designer</H1>
+              <H1>UI/UX Designer</H1>
               <p>
-                ZigZag<br />March 2019 - Present
+              Zigzag Media Inc.,<br />March 2015 to March 2019
               </p>
             </Lead>
             <H3>Tools / Technologies used:</H3>
@@ -74,9 +74,11 @@ export default class Zigzag extends React.Component {
               <Col xs="12" sm="7" md="6">
                 <H2 capitalized>Job Scopes:</H2>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                  <li>Closely coordinate and work with various departments for all campaigns that require visuals, videos and similar creative for purposes of marketing, advertising and/or branding</li>
+                  <li>Plan concepts by studying information and materials</li>
+                  <li>Secure approval of concept by submitting mock ups</li>
+                  <li>Perform design-related programming slicing (HTML/CSS)</li>
+                  <li>Development and provision of designs that are reflective of the online brands managed in-house</li>>
                 </ul>
               </Col>
             </Row>
@@ -91,10 +93,13 @@ export default class Zigzag extends React.Component {
                   Skills, Tools and Abilities:
                 </H2>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                  <li>Adobe Creative Cloud 2018/2019</li>
+                  <li>Adept in developing, coding and publishing marketing and advertising collaterals</li>
+                  <li>Experienced in web design, UI and frontend design for web products and services</li>
+                  <li>Deep understanding of cross-platform and cross browser compatibility (responsive web design)</li>
+                  <li>Knowledgeable in CSS3 and HTML5</li>
+                  <li>Email template using MJML</li>
+                  <li>AMP pages for blog and post</li>
                 </ul>
               </Col>
             </Row>

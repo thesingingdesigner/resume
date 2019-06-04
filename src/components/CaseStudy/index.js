@@ -195,7 +195,7 @@ export const IconBox = styled.div`
     position: absolute;
     left: 7%;
     @media (max-width: 767px) {
-      height: 100vh;
+      height: 130vh;
       width: 8px;
       margin: 0 auto;
       position: absolute;

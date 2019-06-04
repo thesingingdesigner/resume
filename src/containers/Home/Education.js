@@ -58,7 +58,7 @@ export default function Contact () {
               <div className="mb30">
                 <BoldText>STI - System Technology Institute</BoldText>
                 <BoldTextSmall>October 2000 - October 2002</BoldTextSmall>
-                <span className="tag">Diploma in Computer Electronics Technology</span>
+                <span className="tag">Computer Electronics Technology</span>
               </div>
             </div>
           </CenteredContent>
