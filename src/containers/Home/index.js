@@ -8,6 +8,8 @@ import Contact from './Contact';
 import './styles.scss';
 import avatar from '../../assets/images/thesingingdesigner-icon.svg'
 
+
+
 const Base = styled.div`
   display: flex;
   align-items: center;
@@ -59,7 +61,6 @@ function Home() {
             Hello there, I'm a Graphic/UI/UX Designer & Prototype Developer from Cavite, Philippines. I love to challenge myself in an interesting, challenging and useful web and mobile applications because of the way it makes me think on how the user-experience and systems will work from end-to-end users.
             <br />
             <br />
-
             When I am not working as a graphic designer, I spend my time doing some other creative stuff such as writing songs, poems, stories and doing lots of productive thinking. I also like travelling and going to heritage places, do some fishing and nature tripping.
             </p>
           </BaseHome>

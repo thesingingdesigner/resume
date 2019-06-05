@@ -58,7 +58,7 @@ export const UnorderedList = styled.div`
   }
 `;
 
-export const ImageTitle = ({ src, title }) => {
+export const ImageTitle = ({ src, title, content }) => {
   const Image = styled.div`
     float: left;
     width: 33.33%;
@@ -75,6 +75,9 @@ export const ImageTitle = ({ src, title }) => {
         text-align: center;
         font-weight: bold;
       }
+      .text {
+        text-align: center;
+      }
     }
   `;
   return (
@@ -82,6 +85,7 @@ export const ImageTitle = ({ src, title }) => {
       <div className="item">
         <img src={src} alt={title} />
         <div className="title">{title}</div>
+        <div className="text">{content}</div>
       </div>
     </Image>
   );
@@ -163,7 +167,7 @@ export const IconTextInline = styled.div`
   }
 `;
 
-export const CustomIconText = ({ icon, content }) => {
+export const CustomIconText = ({ icon, content, description }) => {
   return (
     <IconTextInline>
       <IconText>
@@ -174,6 +178,7 @@ export const CustomIconText = ({ icon, content }) => {
               {content}
             </div>
           </div>
+          <div className="description">{description}</div>
         </CircledIcon>
       </IconText>
     </IconTextInline>

@@ -127,6 +127,7 @@ export default class Emapta extends React.Component {
                         Discussion
                       </span>
                     )}
+                    description={(<span>this is  a text</span>)}
                   />
                   
                   <CustomIconText
@@ -178,12 +179,22 @@ export default class Emapta extends React.Component {
             <Row>
               <Col xs="12">
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
+                  src="/static/media/bargainwheels-view.3832da1b.png"
                   title="VroomVroomVroom"
+                  content={(
+                    <span>
+                      Final Review
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
+                  src="/static/media/vroom-view.28572d92.png"
                   title="Bargainwheels"
+                  content={(
+                    <span>
+                      Final Review
+                    </span>
+                  )}
                 />
                 <ImageTitle
                   src="https://via.placeholder.com/350x220"
