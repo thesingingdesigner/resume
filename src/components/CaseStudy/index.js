@@ -154,8 +154,8 @@ export const IconTextInline = styled.div`
   }
   @media (min-width: 768px) and (max-width: 991px) {
     ${CircledIcon} {
-      width: 110px;
-      height: 110px;
+      width: 120px;
+      height: 120px;
     }
     i {
       font-size: 30px;
@@ -182,6 +182,12 @@ export const CustomIconText = ({ icon, content, description }) => {
         </CircledIcon>
       </IconText>
     </IconTextInline>
+  );
+}
+
+export const CustomIconTextDesc = ({description }) => {
+  return (
+          <div className="description">{description}</div>
   );
 }
 

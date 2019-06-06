@@ -1,9 +1,29 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
 
+
 const Contact = () => {
   return (
     <Container>
+      <Row>
+      <Col sm="12" md={{ size: 6, offset: 3 }}>
+      <div className="buttons mb30">
+            <button className="primary ghost">
+              Email
+            </button>{' '}
+            <button className="primary ghost">
+              Github
+            </button>{' '}
+            <button className="primary ghost">
+              Linkedin
+            </button>{' '}
+            <button className="primary ghost">
+              Download CV
+            </button>
+          </div>
+        </Col>
+      </Row>
+
       <Row>
         <Col sm="12" md={{ size: 6, offset: 3 }}>
           <Form
@@ -34,8 +54,10 @@ const Contact = () => {
           </Form>
         </Col>
       </Row>
+      
     </Container>
   );
 }
 
 export default Contact;
+
