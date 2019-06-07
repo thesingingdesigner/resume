@@ -34,7 +34,7 @@ const TimelineItem = ({ data }) => (
           <p>{data.text}</p>
           {data.link && (
             <Link to={data.link.url}>
-              View Job Scope and Contributions
+              View Job Scope and Projects
             </Link>
           )}
           <span className="circle" />

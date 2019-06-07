@@ -6,55 +6,34 @@ const Contact = () => {
   return (
     <Container>
       <Row>
-      <Col sm="12" md={{ size: 6, offset: 3 }}>
-      <div className="buttons mb30">
-            <button className="primary ghost">
+      <Col sm="12" md={{ size: 6, offset: 3}}>
+          <div className="buttons mb30">
+            <button className="primary ghost" href="mailto:johnpaulrolle@gmail.com">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>{' '}
               Email
             </button>{' '}
-            <button className="primary ghost">
-              Github
+            <button className="primary ghost" href="https://github.com/thesingingdesigner" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i>{' '}
+              Github          
             </button>{' '}
-            <button className="primary ghost">
+            <button className="primary ghost" href="https://ph.linkedin.com/in/john-paul-r-364011105" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>{' '}
               Linkedin
             </button>{' '}
             <button className="primary ghost">
-              Download CV
+            <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>{' '}
+              Download
             </button>
           </div>
+          <Label for="email"><h5>Email: johnpaulrolle@gmail.com</h5></Label>
+          <br />
+          <Label for="mobile"><h5>Mobile: +63 947 571 8743 (SMART)</h5></Label>
+          <br />
+          <Label for="mobile"><h5>Mobile: +63 917 180 7690 (GLOBE)</h5></Label>
+          <br />
+          <Label for="address"><h5>Address: Dasmarinas City, Cavite</h5></Label>
         </Col>
       </Row>
-
-      <Row>
-        <Col sm="12" md={{ size: 6, offset: 3 }}>
-          <Form
-            style={{ marginBottom: '40px' }}
-            name="contact"
-            method="post"
-            action="/success"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="bot-field" />
-            <FormGroup>
-              <Label for="email">Email</Label>
-              <Input type="email" name="email" id="email" placeholder="Email" />
-            </FormGroup>
-            <FormGroup>
-              <Label for="subject">Subject</Label>
-              <Input type="text" name="subject" id="subject" placeholder="Subject" />
-            </FormGroup>
-            <FormGroup>
-              <div data-netlify-recaptcha="true"></div>
-            </FormGroup>
-            <FormGroup>
-              <Label for="message">Text Area</Label>
-              <Input type="textarea" name="message" id="message" placeholder="Message" />
-            </FormGroup>
-            <Button>Submit</Button>
-          </Form>
-        </Col>
-      </Row>
-      
     </Container>
   );
 }

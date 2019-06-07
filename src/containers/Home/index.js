@@ -59,17 +59,6 @@ function Home() {
             <h3>John Paul "JP" Rolle</h3>
             <h6>+63 947 571 8743</h6>
             <p><b>UX/UI Designer</b></p>
-            <div className="buttons mb30">
-              <button className="primary ghost">
-                Email
-              </button>{' '}
-              <button className="primary ghost">
-                Github
-              </button>{' '}
-              <button className="primary ghost">
-                Linkedin
-              </button>
-            </div>
             <p className="qoute">
             “Looking for a very challenging position, as a UX/UI Designer, from end-to-end user journey and business to business endpoint, for fast, easy and effective productions, with a positive environment and support for growth personally and professionally.”
             </p>

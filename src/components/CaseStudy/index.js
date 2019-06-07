@@ -197,20 +197,20 @@ export const IconBox = styled.div`
   @media (min-width: 768px) and (max-width: 991px) {
     height: 110px;
   }
-  .line {
-    height: 8px;
-    background-color: #8699b1;
-    width: 85%;
-    margin: 0 auto;
-    top: 50%;
-    position: absolute;
-    left: 7%;
-    @media (max-width: 767px) {
-      height: 130vh;
-      width: 8px;
-      margin: 0 auto;
-      position: absolute;
-      left: calc(50% - 4px);
-    }
+  // .line {
+  //   height: 8px;
+  //   background-color: #8699b1;
+  //   width: 85%;
+  //   margin: 0 auto;
+  //   top: 50%;
+  //   position: absolute;
+  //   left: 7%;
+  //   @media (max-width: 767px) {
+  //     height: 130vh;
+  //     width: 8px;
+  //     margin: 0 auto;
+  //     position: absolute;
+  //     left: calc(50% - 4px);
+  //   }
   }
 `;

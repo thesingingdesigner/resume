@@ -6,8 +6,7 @@ import {
   Col,
 } from 'reactstrap';
 import Template from '../../components/Template';
-import image from '../../assets/images/bargainwheels-view.png';
-import ImageProcess from '../../assets/images/esd.png';
+import image from '../../assets/images/vroom-view.png';
 import {
   Page,
   BannerImage,
@@ -18,10 +17,6 @@ import {
   UnorderedList,
   ImageTitle,
   CircledIcon,
-  IconText,
-  IconTextInline,
-  CustomIconText,
-  IconBox,
 } from '../../components/CaseStudy';
 
 export default class Emapta extends React.Component {
@@ -110,50 +105,85 @@ export default class Emapta extends React.Component {
             <Row>
               <Col xs="12">
                 <ImageTitle
-                  src="/static/media/bargainwheels-view.3832da1b.png"
+                  src="/static/media/vroom-view.28572d92.png"
                   title="VroomVroomVroom"
                   content={(
                     <span>
-                      Final Review
+                      New booking flow design 
+                    </span>
+                  )}
+                />
+                <ImageTitle
+                  src="/static/media/bargainwheels-view.3832da1b.png"
+                  title="Bargainwheels"
+                  content={(
+                    <span>
+                      Redesign of whole site
                     </span>
                   )}
                 />
                 <ImageTitle
                   src="/static/media/vroom-view.28572d92.png"
-                  title="Bargainwheels"
+                  title="Carhire"
                   content={(
                     <span>
-                      Final Review
+                      Redesign of whole site
                     </span>
                   )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="Carhire"
-                />
-                <ImageTitle
-                  src="https://via.placeholder.com/350x220"
+                  src="/static/media/bargainwheels-view.3832da1b.png"
                   title="Whitelabels"
+                  content={(
+                    <span>
+                      Convert into XD | apply new booking flow design
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="Closed-User-Group (CUG)"
+                  src="/static/media/bargainwheels-view.3832da1b.png"
+                  title="Closed User Group (CUG)"
+                  content={(
+                    <span>
+                      Convert into XD | apply new booking flow design
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="Bargainwheels Logo"
+                  src="/static/media/bargainwheels-view.3832da1b.png"
+                  title="Bargainwheels - Logo"
+                  content={(
+                    <span>
+                      Rebranding and new logo design
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
+                  src="/static/media/bargainwheels-view.3832da1b.png"
                   title="Bargainwheels Mascot"
+                  content={(
+                    <span>
+                      Mascot design, posture and emotion
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
+                  src="/static/media/vroom-view.28572d92.png"
                   title="Animations"
+                  content={(
+                    <span>
+                      Mascot design, posture and emotion
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
+                  src="/static/media/vroom-view.28572d92.png"
                   title="AMP Pages"
+                  content={(
+                    <span>
+                      Mascot design, posture and emotion
+                    </span>
+                  )}
                 />
               </Col>
             </Row>
