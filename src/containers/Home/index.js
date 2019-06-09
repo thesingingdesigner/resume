@@ -56,9 +56,10 @@ function Home() {
             <Avatar>
               <img className="round mb20" alt="avatar" src={avatar} />
             </Avatar>
-            <h3>John Paul "JP" Rolle</h3>
-            <h6>+63 947 571 8743</h6>
-            <p><b>UX/UI Designer</b></p>
+            <h2>John Paul "JP" Rolle</h2>
+            {/* <h6>+63 947 571 8743</h6> */}
+            <h4><b>UX/UI Designer</b></h4>
+            <br />
             <p className="qoute">
             “Looking for a very challenging position, as a UX/UI Designer, from end-to-end user journey and business to business endpoint, for fast, easy and effective productions, with a positive environment and support for growth personally and professionally.”
             </p>
@@ -84,59 +85,113 @@ function Home() {
                     alt="bargainwheels desktop, tablet and mobile"
                   />
                   <Lead>
-                    <br />
-                    <h4>Nah, I'm just kidding... this is how the way I really process...</h4>
+                    <br /><br />
+                    <h4>I'm just kidding, <i class="fa fa-smile-o" aria-hidden="true"></i> this is how I really process</h4>
                   </Lead>
                 </BannerImage>
                 <Col xs="12">
                   <IconBox>
                   <CustomIconText
+                      count={1}
                       icon="fa-comments-o"
                       content={(
                         <span>
                           Discussion
                         </span>
                       )}
+                      description={(
+                        <ul style={{ padding: '0px 30px' }}>
+                          <li>Gathering of information</li>
+                          <li>Discussion of business model</li>
+                          <li>Asking questions during discussion</li>
+                          <li>End meeting with required details</li>
+                        </ul>
+                      )}
                     />
-
                     <CustomIconText
-                      icon="fa-lightbulb-o" 
+                      count={2}
+                      icon="fa-lightbulb-o"
                       content={(
                         <span>
                           Idea
                         </span>
                       )}
+                      description={(
+                        <ul style={{ padding: '0px 30px' }}>
+                          <li>Research studies</li>
+                          <li>Build user persona and user stories</li>
+                          <li>Create user flow / sitemap</li>
+                          <li>Build wireframe and interaction prototypes</li>
+                        </ul>
+                      )}
                     />
                     <CustomIconText
+                      count={3}
                       icon="fa-list-alt"
                       content={(
                         <span>
                           Review
                         </span>
                       )}
+                      description={(
+                        <ul style={{ padding: '0px 30px' }}>
+                          <li>Competitor analysis</li>
+                          <li>Understand the user stories</li>
+                          <li>Identify and point out user flows</li>
+                          <li>Review wireframe designs</li>
+                        </ul>
+                      )}
                     />
+                    <div className="next-break" />
                     <CustomIconText
+                      count={4}
                       icon="fa-pencil"
                       content={(
                         <span>
                           Implement
                         </span>
                       )}
+                      description={(
+                        <ul style={{ padding: '0px 30px' }}>
+                          <li>Design application</li>
+                          <li>Branding applications</li>
+                          <li>End-to-end user journey flow</li>
+                          <li>UI and visual design</li>
+                        </ul>
+                      )}
                     />
                     <CustomIconText
+                      count={5}
                       icon="fa-eye"
                       content={(
                         <span>
                           Final Review
                         </span>
                       )}
+                      description={(
+                        <ul style={{ padding: '0px 30px' }}>
+                          <li>Gather final feedback</li>
+                          <li>Discuss full user journey</li>
+                          <li>Designs from different platform</li>
+                          <li>Finalize design based on review</li>
+                        </ul>
+                      )}
                     />
                     <CustomIconText
+                      count={6}
                       icon="fa-check-circle-o"
                       content={(
                         <span>
                           Deliver
                         </span>
+                      )}
+                      description={(
+                        <ul style={{ padding: '0px 30px' }}>
+                          <li>Send designs to Developer</li>
+                          <li>Create style guide for QA</li>
+                          <li>Compile designs to repositories</li>
+                          <li>Optimize assets and share on productions</li>
+                        </ul>
                       )}
                     />
                     <div className="line"></div>

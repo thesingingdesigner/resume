@@ -27,7 +27,7 @@ const timelineData = [
     department: 'Development Team',
     text: `A car rental company based in Australia that cater different countries (Australia, United Kingdom, United States, Canada and New Zealand), my main job objective is to designs a very functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions.`,
     link: {
-      url: '/job-scope-and-contributions/emapta',
+      url: '/job-scope-and-projects/emapta',
       text: 'View Case Study'
     }
   },
@@ -42,7 +42,7 @@ const timelineData = [
     department: 'Development Team',
     text: `A car rental company based in Australia that cater different countries (Australia, United Kingdom, United States, Canada and New Zealand), my main job objective is to designs a very functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions.`,
     link: {
-      url: '/job-scope-and-contributions/zigzag',
+      url: '/job-scope-and-projects/zigzag',
       text: 'View Case Study'
     }
   },
@@ -53,7 +53,7 @@ const timelineData = [
       tag: 'web graphic artist',
       color: '#8493ff'
     },
-    account: 'DIRECT HIRED',
+    account: 'One Jump Web Inc.',
     department: 'DESIGN TEAM',
     text: `An e-Commerce based in United States with satellite office in Makati, selling refurbished gadgets such as mobile phones and tablets.`,
   },
@@ -64,11 +64,11 @@ const timelineData = [
       tag: 'web graphic designer',
       color: '#8493ff'
     },
-    account: 'DIRECT HIRED',
+    account: 'Filsupport',
     department: 'DESIGN TEAM',
     text: `An outsourcing company that focuses on SEO, Internet Marketing and Web Design, catering multiple businesses from different countries`,
     link: {
-      url: '/job-scope-and-contributions/filsupport',
+      url: '/job-scope-and-projects/filsupport',
       text: 'View Case Study'
     }
   },
@@ -79,7 +79,7 @@ const timelineData = [
       tag: 'jr. graphic designer',
       color: '#8493ff'
     },
-    account: 'DIRECT HIRED',
+    account: 'Nahel',
     department: 'DESIGN TEAM',
     text: `An e-Commerce based in Dubai with satellite office in Makati, that focus on internet marketing such as ad banners and social media community.`,
   },
@@ -90,8 +90,8 @@ const timelineData = [
       tag: 'graphic designer†(printing)',
       color: '#8493ff'
     },
-    account: 'DIRECT HIRED',
-    department: 'DIRECT HIRED',
+    account: 'Dreamladders',
+    department: 'PRODUCTION TEAM',
     text: `An event/catering business that caters various occassions such as birthdays, debut, weddings, anniversaries and more.`,
   },
 ];

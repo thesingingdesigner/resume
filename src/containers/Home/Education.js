@@ -8,7 +8,7 @@ import styled from 'styled-components';
 
 const CustonContainer = styled(Container)`
   @media (min-width: 768px) {
-    height: 100vh;
+    height: 100%;
   }
 `;
 
@@ -42,7 +42,7 @@ export default function Contact () {
     <CustonContainer id="education">
       <Title>Education</Title>
       <Row>
-        <Col sm="6">
+        <Col xs="12" sm="8" md="6">
           <CenteredContent>
             <div>
               <div className="mb30">
@@ -63,7 +63,7 @@ export default function Contact () {
             </div>
           </CenteredContent>
         </Col>
-        <Col sm="6" className="d-none d-sm-block">
+        <Col xs="12" sm="4" md="6" className="d-none d-sm-block">
           <CenteredContent>
             <div>
               <i

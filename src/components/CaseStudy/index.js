@@ -126,7 +126,7 @@ export const CircledIcon = styled.div`
       padding: 10px;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       i {
-        font-size: 50px;
+        font-size: 35px;
       }
     `};
 `;
@@ -138,7 +138,7 @@ export const IconText = styled.div`
   }
   .text {
     text-transform: uppercase;
-    line-height: 16px;
+    line-height: 22px;
     font-size: 13px;
     font-weight: bold;
   }
@@ -153,6 +153,7 @@ export const IconTextInline = styled.div`
     width: 100%;
   }
   @media (min-width: 768px) and (max-width: 991px) {
+    width: 33.33%;
     ${CircledIcon} {
       width: 120px;
       height: 120px;
@@ -167,20 +168,22 @@ export const IconTextInline = styled.div`
   }
 `;
 
-export const CustomIconText = ({ icon, content, description }) => {
+export const CustomIconText = ({ count, icon, content, description }) => {
   return (
     <IconTextInline>
-      <IconText>
+      <IconText className="mb10">
+
         <CircledIcon classname="circled-icon" small>
           <div className="content">
+            <div><strong>{count}</strong></div>
             <i className={`fa ${icon}`} />
             <div className="text">
               {content}
             </div>
           </div>
-          <div className="description">{description}</div>
         </CircledIcon>
       </IconText>
+      <div className="description">{description}</div>
     </IconTextInline>
   );
 }

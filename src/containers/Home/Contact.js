@@ -11,7 +11,7 @@ const Title = styled.h1`
 
 const CustonContainer = styled(Container)`
   @media (min-width: 768px) {
-    height: calc(100vh - 180px);
+    height: 100%;
   }
   padding-top: 20px;
   padding-bottom: 40px;

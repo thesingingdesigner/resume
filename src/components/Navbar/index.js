@@ -49,15 +49,17 @@ export default class Example extends React.Component {
   }
 
   scrollWithOffset(el, offset) {
-    const elementPosition = el.offsetTop - offset;
-    window.scroll({
-      top: elementPosition,
-      left: 0,
-      behavior: "smooth"
-    });
-    if (this.state.isOpen) {
-      this.toggle();
-    }
+    setTimeout(() => {
+      const elementPosition = el.offsetTop - offset;
+      window.scroll({
+        top: elementPosition,
+        left: 0,
+        behavior: "smooth"
+      });
+      if (this.state.isOpen) {
+        this.toggle();
+      }
+    }, 100)
   }
 
   render() {
@@ -75,16 +77,16 @@ export default class Example extends React.Component {
               {typeof this.props.children === 'undefined' ? (
                 <React.Fragment>
                   <NavItem>
-                    <NavLink tag={ScrollLink} to="/#home" scroll={el => this.scrollWithOffset(el, 130)}>Home</NavLink>
+                    <NavLink tag={ScrollLink} to="/#home" scroll={el => this.scrollWithOffset(el, 100)}>Home</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink tag={ScrollLink} to="/#work-experience" scroll={el => this.scrollWithOffset(el, 130)}>Work Experience</NavLink>
+                    <NavLink tag={ScrollLink} to="/#work-experience" scroll={el => this.scrollWithOffset(el, 90)}>Work Experience</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink tag={ScrollLink} to="/#education" scroll={el => this.scrollWithOffset(el, 130)}>Education</NavLink>
+                    <NavLink tag={ScrollLink} to="/#education" scroll={el => this.scrollWithOffset(el, 110)}>Education</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink tag={ScrollLink} to="/#contact" scroll={el => this.scrollWithOffset(el, 130)}>Contact</NavLink>
+                    <NavLink tag={ScrollLink} to="/#contact" scroll={el => this.scrollWithOffset(el, 90)}>Contact</NavLink>
                   </NavItem>
                 </React.Fragment>
               ) : (

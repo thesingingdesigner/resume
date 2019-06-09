@@ -109,3 +109,29 @@ button.primary.ghost {
 .text-align-left {
   text-align: left;
 }
+
+.contact-form-button {
+  button {
+    margin-bottom: 8px;
+  }
+}
+
+.description {
+  margin-bottom: 20px;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+  ul li {
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+}
+
+.next-break {
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 100%;
+    display: block;
+    height: 1px;
+    clear: both;
+  }
+}

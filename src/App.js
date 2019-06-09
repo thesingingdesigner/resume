@@ -5,14 +5,17 @@ import Emapta from './containers/Emapta';
 import Zigzag from './containers/Zigzag';
 import Filsupport from './containers/Filsupport';
 
+const reload = () => window.location.reload();
+
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/robots.txt" onEnter={reload} />
         <Route path="/" exact component={Home} />
-        <Route path="/job-scope-and-contributions/emapta" component={Emapta} />
-        <Route path="/job-scope-and-contributions/zigzag" component={Zigzag} />
-        <Route path="/job-scope-and-contributions/filsupport" component={Filsupport} />
+        <Route path="/job-scope-and-projects/emapta" component={Emapta} />
+        <Route path="/job-scope-and-projects/zigzag" component={Zigzag} />
+        <Route path="/job-scope-and-projects/filsupport" component={Filsupport} />
       </Switch>
     </Router>
   );

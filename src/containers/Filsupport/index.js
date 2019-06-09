@@ -6,7 +6,13 @@ import {
   Col,
 } from 'reactstrap';
 import Template from '../../components/Template';
-import image from '../../assets/images/bargainwheels-view.png';
+import image from '../../assets/images/filsupport-view.png';
+import fs1 from '../../assets/images/fs-1.png';
+import fs2 from '../../assets/images/fs-2.png';
+import fs3 from '../../assets/images/fs-3.png';
+import fs4 from '../../assets/images/fs-4.png';
+import fs5 from '../../assets/images/fs-5.png';
+import fs6 from '../../assets/images/fs-6.png';
 import {
   Page,
   BannerImage,
@@ -17,10 +23,6 @@ import {
   UnorderedList,
   ImageTitle,
   CircledIcon,
-  IconText,
-  IconTextInline,
-  CustomIconText,
-  IconBox,
 } from '../../components/CaseStudy';
 
 export default class Filsupport extends React.Component {
@@ -32,33 +34,33 @@ export default class Filsupport extends React.Component {
             <BannerImage>
               <img
                 src={image}
-                alt="description"
+                alt="bargainwheels desktop, tablet and mobile"
               />
             </BannerImage>
             <Lead>
-              <H1>Junior UX Designer</H1>
+              <H1>Web Graphic Designer</H1>
               <p>
-                Filsupport<br />March 2019 - Present
+                Filsupport<br />NOVEMBER 2011 to MARCH 2014
               </p>
             </Lead>
             <H3>Tools / Technologies used:</H3>
             <div className="skills">
               <UnorderedList>
-                <ul>
-                  <li>Adobe XD</li>
-                  <li>Adobe Photoshop</li>
-                  <li>Adobe After Effects</li>
-                  <li>Wordpress</li>
-                  <li>AMP</li>
-                  <li>Jira / Confluence</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Git</li>
-                  <li>Open VPN</li>
-                  <li>WinSCP</li>
-                  <li>Bootstrap</li>
-                  <li>Slack</li>
-                </ul>
+              <ul>
+                <li>Pen and Paper</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe After Effects</li>
+                <li>Adobe Illustrator</li>
+                <li>Axure RP</li>
+                <li>Wordpress</li>
+                <li>Filezilla</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Bootstrap</li>
+                <li>Skype</li>
+                <li>Notepad++</li>
+              </ul>
               </UnorderedList>
             </div>
           </Container>
@@ -68,33 +70,35 @@ export default class Filsupport extends React.Component {
             <Row className="mb80 mb-xs-20">
               <Col xs="12" sm="5" md="6">
                 <CircledIcon>
-                  <i className="fa fa-graduation-cap" />
+                  <i className="fa fa-pencil" />
                 </CircledIcon>
               </Col>
               <Col xs="12" sm="7" md="6">
                 <H2 capitalized>Job Scopes:</H2>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                  <li>Designing functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions</li>
+                  <li>Undertake initial research, developing, wireframes and mock-ups, polishing the design, implementing it with HTML5/CSS3 as directed by the UX Designer</li>
+                  <li>Testing, evaluating and tweaking all designs before going live</li>
+                  <li>Working closely with the Development, Marketing and Customer Service team to ensure designs are functional and relevant to each departments needs</li>
                 </ul>
               </Col>
             </Row>
             <Row>
               <Col xs="12" sm="5" md="6">
                 <CircledIcon>
-                  <i className="fa fa-graduation-cap" />
+                  <i className="fa fa-code" />
                 </CircledIcon>
               </Col>
               <Col xs="12" sm="7" md="6">
                 <H2 className="mb20" capitalized>
-                  Skills, Tools and Abilities:
+                Skills, Tools and Abilities:
                 </H2>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                  <li>Adobe Creative Cloud 2018/2019</li>
+                  <li>Adept in developing, coding and publishing marketing and advertising collaterals</li>
+                  <li>Experienced in web design, UI and frontend design for web products and services</li>
+                  <li>Deep understanding of cross-platform and cross browser compatibility (responsive web design)</li>
+                  <li>Knowledgeable in CSS3 and HTML5</li>
                 </ul>
               </Col>
             </Row>
@@ -102,108 +106,63 @@ export default class Filsupport extends React.Component {
         </Page>
         <Page grayed>
           <Container>
-            <H2 capitalized>UX Design Process</H2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <Row className="mb30">
-              <Col xs="12">
-                <IconBox>
-                <CustomIconText
-                    icon="fa-graduation-cap"
-                    content={(
-                      <span>
-                        User<br />
-                        Research
-                      </span>
-                    )}
-                  />
-                  <CustomIconText
-                    icon="fa-graduation-cap"
-                    content={(
-                      <span>
-                        Build User<br />
-                        Persona
-                      </span>
-                    )}
-                  />
-                  <CustomIconText
-                    icon="fa-graduation-cap"
-                    content={(
-                      <span>
-                        Create User<br />
-                        Stories
-                      </span>
-                    )}
-                  />
-                  <CustomIconText
-                    icon="fa-graduation-cap"
-                    content={(
-                      <span>
-                        Wireframe<br />
-                        Design
-                      </span>
-                    )}
-                  />
-                  <CustomIconText
-                    icon="fa-graduation-cap"
-                    content={(
-                      <span>
-                        Visual Design<br />
-                        Prototype
-                      </span>
-                    )}
-                  />
-                  <CustomIconText
-                    icon="fa-graduation-cap"
-                    content={(
-                      <span>
-                        Design<br />
-                        Validations
-                      </span>
-                    )}
-                  />
-                  <div className="line"></div>
-                </IconBox>
-              </Col>
-            </Row>
             <H2 capitalized>Project I Worked and Participated with...</H2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>As a Web Graphic Designer my priority tasks is to design a highly functional interfaces and prototypes that are easy to use, to provide and improved usability customer experience.</p>
             <Row>
               <Col xs="12">
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  src={fs1}
+                  title="Shapiro and Sher (LVFH)"
+                  content={(
+                    <span>
+                      Web design and prototype development
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  src={fs2}
+                  title="Carney"
+                  content={(
+                    <span>
+                      Web design and prototype development
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  src={fs3}
+                  title="Looplane"
+                  content={(
+                    <span>
+                      CMS Blog/Article Web design
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  src={fs4}
+                  title="Pitts Tamperproof"
+                  content={(
+                    <span>
+                      E-commerce redesign website
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  src={fs5}
+                  title="Camden West"
+                  content={(
+                    <span>
+                      Music / Celebrity profile web design
+                    </span>
+                  )}
                 />
                 <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
-                />
-                <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
-                />
-                <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
-                />
-                <ImageTitle
-                  src="https://via.placeholder.com/350x220"
-                  title="VroomVroomVroom"
+                  src={fs6}
+                  title="Rocketcash"
+                  content={(
+                    <span>
+                      Lending web design
+                    </span>
+                  )}
                 />
               </Col>
             </Row>

@@ -20,7 +20,7 @@ function Template({ children }) {
         <Navbar />
         { children }
         <Footer>
-          Copyright © 2019 - thesigningdesigner.com
+          Copyright © 2019 - thesingingdesigner.com
         </Footer>
       </Base>
     </React.Fragment>

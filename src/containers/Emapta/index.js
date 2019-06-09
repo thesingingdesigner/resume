@@ -7,6 +7,11 @@ import {
 } from 'reactstrap';
 import Template from '../../components/Template';
 import image from '../../assets/images/vroom-view.png';
+import VroomImage from '../../assets/images/vroom-view.png';
+import CHImage from '../../assets/images/carhire-view.png';
+import BWImage from '../../assets/images/bargainwheels-view.png';
+import BWLogo from '../../assets/images/bw-logo.png';
+import BWKoala from '../../assets/images/bw-koala.png';
 import {
   Page,
   BannerImage,
@@ -34,26 +39,35 @@ export default class Emapta extends React.Component {
             <Lead>
               <H1>Junior UX Designer</H1>
               <p>
-                Emapta Versatile Services Inc.<br />March 2019 - Present
+                Emapta Versatile Services Inc.<br />March 2019 to Present
               </p>
             </Lead>
             <H3>Tools / Technologies used:</H3>
             <div className="skills">
               <UnorderedList>
                 <ul>
+                  <li>Pen and Paper</li>
                   <li>Adobe XD</li>
                   <li>Adobe Photoshop</li>
                   <li>Adobe After Effects</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Figma</li>
+                  <li>Protopie</li>
                   <li>Wordpress</li>
                   <li>AMP</li>
                   <li>Jira / Confluence</li>
                   <li>HTML</li>
                   <li>CSS</li>
+                  <li>JS</li>
                   <li>Git</li>
+                  <li>Google Suite</li>
                   <li>Open VPN</li>
                   <li>WinSCP</li>
                   <li>Bootstrap</li>
                   <li>Slack</li>
+                  <li>Trello</li>
+                  <li>VSCode</li>
+                  <li>Sublime</li>
                 </ul>
               </UnorderedList>
             </div>
@@ -64,7 +78,7 @@ export default class Emapta extends React.Component {
             <Row className="mb80 mb-xs-20">
               <Col xs="12" sm="5" md="6">
                 <CircledIcon>
-                <i className="fa fa-pencil" />
+                  <i className="fa fa-pencil" />
                 </CircledIcon>
               </Col>
               <Col xs="12" sm="7" md="6">
@@ -105,16 +119,25 @@ export default class Emapta extends React.Component {
             <Row>
               <Col xs="12">
                 <ImageTitle
-                  src="/static/media/vroom-view.28572d92.png"
+                  src={VroomImage}
                   title="VroomVroomVroom"
                   content={(
                     <span>
-                      New booking flow design 
+                      New booking flow design
                     </span>
                   )}
                 />
                 <ImageTitle
-                  src="/static/media/bargainwheels-view.3832da1b.png"
+                  src={CHImage}
+                  title="Carhire"
+                  content={(
+                    <span>
+                      Part of redesigning the whole site
+                    </span>
+                  )}
+                />
+                <ImageTitle
+                  src={BWImage}
                   title="Bargainwheels"
                   content={(
                     <span>
@@ -122,16 +145,7 @@ export default class Emapta extends React.Component {
                     </span>
                   )}
                 />
-                <ImageTitle
-                  src="/static/media/vroom-view.28572d92.png"
-                  title="Carhire"
-                  content={(
-                    <span>
-                      Redesign of whole site
-                    </span>
-                  )}
-                />
-                <ImageTitle
+                {/* <ImageTitle
                   src="/static/media/bargainwheels-view.3832da1b.png"
                   title="Whitelabels"
                   content={(
@@ -139,8 +153,8 @@ export default class Emapta extends React.Component {
                       Convert into XD | apply new booking flow design
                     </span>
                   )}
-                />
-                <ImageTitle
+                /> */}
+                {/* <ImageTitle
                   src="/static/media/bargainwheels-view.3832da1b.png"
                   title="Closed User Group (CUG)"
                   content={(
@@ -148,9 +162,9 @@ export default class Emapta extends React.Component {
                       Convert into XD | apply new booking flow design
                     </span>
                   )}
-                />
+                /> */}
                 <ImageTitle
-                  src="/static/media/bargainwheels-view.3832da1b.png"
+                  src={BWLogo}
                   title="Bargainwheels - Logo"
                   content={(
                     <span>
@@ -159,7 +173,7 @@ export default class Emapta extends React.Component {
                   )}
                 />
                 <ImageTitle
-                  src="/static/media/bargainwheels-view.3832da1b.png"
+                  src={BWKoala}
                   title="Bargainwheels Mascot"
                   content={(
                     <span>
@@ -167,7 +181,7 @@ export default class Emapta extends React.Component {
                     </span>
                   )}
                 />
-                <ImageTitle
+                {/* <ImageTitle
                   src="/static/media/vroom-view.28572d92.png"
                   title="Animations"
                   content={(
@@ -184,7 +198,7 @@ export default class Emapta extends React.Component {
                       Mascot design, posture and emotion
                     </span>
                   )}
-                />
+                /> */}
               </Col>
             </Row>
           </Container>
