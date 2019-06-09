@@ -40,7 +40,7 @@ export default class Filsupport extends React.Component {
             <Lead>
               <H1>Web Graphic Designer</H1>
               <p>
-                Filsupport<br />NOVEMBER 2011 to MARCH 2014
+                Filsupport<br />November 2011 to March 2014
               </p>
             </Lead>
             <H3>Tools / Technologies used:</H3>
