@@ -20,7 +20,7 @@ const timelineData = [
     title: 'Emapta Versatile Services Inc.',
     date: 'March 2019 - present',
     category: {
-      tag: 'Junior UX Designer',
+      tag: 'UX Designer',
       color: '#8493ff'
     },
     account: 'VroomVroomVroom / Hiccup Insurance',
@@ -81,7 +81,7 @@ const timelineData = [
     },
     account: 'Nahel',
     department: 'DESIGN TEAM',
-    text: `An e-Commerce based in Dubai with satellite office in Makati, that focus on internet marketing such as ad banners and social media community.`,
+    text: `An e-Commerce based in Dubai with satellite office in Cavite, that focus on internet marketing such as ad banners and social media community.`,
   },
   {
     title: 'dreamladders',

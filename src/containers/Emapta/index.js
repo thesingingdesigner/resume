@@ -37,7 +37,7 @@ export default class Emapta extends React.Component {
               />
             </BannerImage>
             <Lead>
-              <H1>Junior UX Designer</H1>
+              <H1>UX Designer</H1>
               <p>
                 Emapta Versatile Services Inc.<br />March 2019 to Present
               </p>

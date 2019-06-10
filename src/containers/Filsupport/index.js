@@ -77,7 +77,7 @@ export default class Filsupport extends React.Component {
                 <H2 capitalized>Job Scopes:</H2>
                 <ul>
                   <li>Designing functional interfaces and tools that are easy to use, providing improved usability, customer experience and increase conversions</li>
-                  <li>Undertake initial research, developing, wireframes and mock-ups, polishing the design, implementing it with HTML5/CSS3 as directed by the UX Designer</li>
+                  <li>Undertake initial research, developing, wireframes and mock-ups, polishing the design, implementing it with HTML5/CSS3</li>
                   <li>Testing, evaluating and tweaking all designs before going live</li>
                   <li>Working closely with the Development, Marketing and Customer Service team to ensure designs are functional and relevant to each departments needs</li>
                 </ul>
@@ -94,10 +94,10 @@ export default class Filsupport extends React.Component {
                 Skills, Tools and Abilities:
                 </H2>
                 <ul>
-                  <li>Adobe Creative Cloud 2018/2019</li>
-                  <li>Adept in developing, coding and publishing marketing and advertising collaterals</li>
-                  <li>Experienced in web design, UI and frontend design for web products and services</li>
-                  <li>Deep understanding of cross-platform and cross browser compatibility (responsive web design)</li>
+                  <li>Developing interactive prototype using Axure RP 6/7</li>
+                  <li>Designing web and applications using Adobe CS5/6 (Creative Suite)</li>
+                  <li>Web design, UI and frontend design for web products and services</li>
+                  <li>Deep understanding of cross-platform and cross browser compatibility</li>
                   <li>Knowledgeable in CSS3 and HTML5</li>
                 </ul>
               </Col>

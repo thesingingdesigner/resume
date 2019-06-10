@@ -29,14 +29,15 @@ const Contact = () => {
             <a href="/jprolle-cv.pdf" target="_blank">
               <button className="primary ghost">
               <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>{' '}
-                Download
+                Download CV
               </button>
             </a>
           </div>
           <div className="text-center">
             <h5 className="mb20">
               <small>Primary Email</small><br />
-              johnpaulrolle@gmail.com
+              johnpaulrolle@gmail.com <br />
+              jp_rolle@yahoo.com.ph
             </h5>
           </div>
           <div className="text-center">
