@@ -54,14 +54,16 @@ const Contact = () => {
           </div>
           <div className="text-center">
             <h5 className="mb20">
-              <small>Mobile</small><br />
-              <span style={{ fontSize: "1.07rem" }}>+63 947 571 8743 (SMART)</span>
+              <small>Smart</small><br />
+              <span style={{ fontSize: "1.07rem" }}>+63 947 571 8743</span><br />
+              <small>Best time to contact me: 4:00 PM (GMT +8) - Onward</small>
             </h5>
           </div>
           <div className="text-center">
             <h5 className="mb20">
-              <small>Mobile</small><br />
-              <span style={{ fontSize: "1.07rem" }}>+63 917 180 7690 (GLOBE)</span>
+              <small>Globe</small><br />
+              <span style={{ fontSize: "1.07rem" }}>+63 917 180 7690</span><br />
+              <small>Best time to contact me: 4:00 PM (GMT +8) - Onward</small>
             </h5>
           </div>
         </Col>
