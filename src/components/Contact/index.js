@@ -35,15 +35,11 @@ const Contact = () => {
           </div>
           <div className="text-center">
             <h5 className="mb20">
-              <small>Primary Email</small><br />
+              <small>Gmail</small><br />
               johnpaulrolle@gmail.com <br />
+              <br />
+              <small>Yahoo</small><br />
               jp_rolle@yahoo.com.ph
-            </h5>
-          </div>
-          <div className="text-center">
-            <h5 className="mb20">
-              <small>Domain Email</small><br />
-              request@thesingingdesigner.com
             </h5>
           </div>
           <div className="text-center">
@@ -54,16 +50,18 @@ const Contact = () => {
           </div>
           <div className="text-center">
             <h5 className="mb20">
-              <small>Smart</small><br />
-              <span style={{ fontSize: "1.07rem" }}>+63 947 571 8743</span><br />
-              <small>Best time to contact me: 4:00 PM (GMT +8) - Onward</small>
+              <small>Mobile (Smart - SMS and Call)</small><br />
+              <span style={{ fontSize: "1.10rem" }}>+63 947 571 8743</span><br />
+              <small>Monday to Friday: 4:00 PM - Onward</small><br />
+              <small>Saturday and Sunday: Anytime</small>
             </h5>
           </div>
           <div className="text-center">
             <h5 className="mb20">
-              <small>Globe</small><br />
-              <span style={{ fontSize: "1.07rem" }}>+63 917 180 7690</span><br />
-              <small>Best time to contact me: 4:00 PM (GMT +8) - Onward</small>
+              <small>Mobile (Globe - call only)</small><br />
+              <span style={{ fontSize: "1.10rem" }}>+63 917 180 7690</span><br />
+              <small>Monday to Friday: 4:00 PM - Onward</small><br />
+              <small>Saturday and Sunday: Anytime</small>
             </h5>
           </div>
         </Col>
