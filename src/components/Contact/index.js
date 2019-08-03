@@ -52,16 +52,16 @@ const Contact = () => {
             <h5 className="mb20">
               <small>Mobile (Smart - SMS and Call)</small><br />
               <span style={{ fontSize: "1.10rem" }}>+63 947 571 8743</span><br />
-              <small>Monday to Friday: 4:00 PM - Onward</small><br />
-              <small>Saturday and Sunday: Anytime</small>
+              <small>Weekdays: 4:00 PM - Onward</small><br />
+              <small>Weekends: Anytime</small>
             </h5>
           </div>
           <div className="text-center">
             <h5 className="mb20">
               <small>Mobile (Globe - call only)</small><br />
               <span style={{ fontSize: "1.10rem" }}>+63 917 180 7690</span><br />
-              <small>Monday to Friday: 4:00 PM - Onward</small><br />
-              <small>Saturday and Sunday: Anytime</small>
+              <small>Weekdays: 4:00 PM - Onward</small><br />
+              <small>Weekends: Anytime</small>
             </h5>
           </div>
         </Col>
